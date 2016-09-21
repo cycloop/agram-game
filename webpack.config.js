@@ -13,8 +13,18 @@ module.exports = {
       loader: 'babel',
       query: {
         presets: ['react', 'es2015', 'stage-1']
-      }
-    }]
+      },
+
+    },
+     {
+       test: /\.css$/,
+       loader: "style!css"
+     },
+    {
+      test: /\.(gif|png)$/,
+      loader: 'file-loader'
+    }
+  ]
   },
   resolve: {
     extensions: ['', '.js', '.jsx']

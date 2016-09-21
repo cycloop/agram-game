@@ -22,16 +22,23 @@
     "jsdom": "^8.1.0",
     "mocha": "^2.4.5",
     "react-addons-test-utils": "^0.14.7",
+    "underscore": "^1.8.3",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",
+    "classnames": "^2.2.5",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
     "lodash": "^3.10.1",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-redux": "^4.0.0",
     "react-router": "^2.0.1",
-    "redux": "^3.0.4"
+    "redux": "^3.0.4",
+    "scss": "^0.2.4",
+    "style-loader": "^0.13.1",
+    "underscore": "^1.8.3"
   }
 }
