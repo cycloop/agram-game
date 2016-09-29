@@ -5,7 +5,6 @@ import Hand from './hand';
 
 class HandList extends Component {
   renderList(){
-
     return this.props.hands.map( (hand) =>
         <Hand hand={hand} />
     )
